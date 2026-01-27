@@ -1,6 +1,6 @@
 # Портфолио — [Акжекеев Диас]
 ## Демо
-[Ссылка на GitHub Pages](<https://username.github.io/portfolio>)
+[Ссылка на GitHub Pages](<https://github.com/deprezhn/deprezhn.github.io.git>)
 ## Описание
 Краткое описание проекта...
 ## Технологии
