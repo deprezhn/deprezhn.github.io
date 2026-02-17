@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(7px);
+}
+
+h1, h2, p, button{
+    color: #E0E0E0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    font-size: 21px;
+}
+
+nav ul li a {
+    color: #E0E0E0;
+    padding: 7px 15px;
+}
+
+nav ul li a.active {
+    color: black;
+    border: 1px solid #333333 none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+}
+
+nav ul {
+    border: 1px solid #333333;
+    max-width: 900px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.main__container {
+    max-width: 1540px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.card {
+    border: none;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.separator {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
